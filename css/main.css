@@ -1,0 +1,377 @@
+ /* ==========================================================================
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+   ========================================================================== */
+   
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  
+ /* ==============
+    General styling
+   ============== */
+ body {
+     background: #333;
+     font-family: 'RobotoRegular', 'Roboto', 'Droid Sans', 'Helvetica Neue', 'Segoe UI', 'Segoe', 'Open Sans', 'Helvetica', 'Arial', sans serif;
+     font-size: 14px;
+     line-height: 20px;
+     margin: 0;
+     padding: 0
+ }
+ #container {
+     background-image: radial-gradient(#2f8e2c, #2e7423);
+     background-color: #2e7423;
+     text-align: center;
+ }
+ header {
+     width: 900px;
+     text-align: left;
+     margin: 0 auto;
+     padding: 20px 0;
+ }
+ nav {
+     background: #222;
+ }
+ nav ul {
+     width: 900px;
+     text-align: left;
+     margin: 0 auto;
+     padding: 0;
+     list-style: none;
+ }
+ nav ul li {
+     margin: 0;
+     padding: 12px 0 12px 4px;
+ }
+ nav ul li a {
+     color: #fff;
+     text-decoration: none;
+ }
+ #logo {
+     height: 33px;
+     background: url(../images/unibet-logo.png) no-repeat;
+     background-size: 200px 33px;
+     text-indent: -999em;
+ }
+ #content {
+     width: 900px;
+     text-align: left;
+     margin: 16px auto;
+ }
+ article {
+     padding: 8px 16px 16px;
+     background: #fff;
+     border-radius: 4px;
+     overflow: hidden;
+ }
+ article h1 {
+     font-size: 22px;
+ }
+ article .preamble {
+     font-weight: bold;
+ }
+ article aside {
+     float: right;
+     width: 220px;
+     border-left: solid 1px #ccc;
+     margin-left: 8px;
+     padding: 0 0 8px 16px;
+ }
+ article aside h2 {
+     font-size: 15px;
+     margin: 4px 0;
+ }
+ article aside img {
+     width: 220px;
+ }
+ footer {
+     background: #333;
+     color: #999;
+ }
+ footer .inner {
+     width: 900px;
+     text-align: left;
+     margin: 0 auto;
+ }
+ footer .inner p {
+     padding: 16px 8px;
+ }
+ 
+ 
+ /* ==========================================================================
+   Patrice P. custom Live styles
+   ========================================================================== */
+ 
+ ::-moz-selection {
+     background: #222;
+     color: #fdc72e;
+     text-shadow: none;
+ }
+ ::selection {
+     background: #222;
+     color: #fdc72e;
+     text-shadow: none;
+ }
+ 
+.browser--upgrade {
+    text-align: center;
+    padding: 2em;
+    color: #fff;
+}
+ 
+.browser--upgrade a {
+    color: #3aaa35;
+    text-decoration: none;
+}
+
+ .browser--upgrade a:hover {
+    text-decoration: underline;
+}
+ 
+ 
+ /* ==============
+    ARTICLE
+   ============== */
+ 
+ article h1 {
+     margin: .6em 0 1.2em;
+     font-size: 1.58em;
+ }
+ 
+ 
+ /* ==============
+    LIVE MATCHES 
+   ============== */
+ 
+ #live--matches .titleError {
+     color: #fff;
+     text-align: center;
+     font-size: 1em;
+     margin: 4em 0;
+ }
+ #live--matches h3 {
+     margin: .7em 0 .5em;
+     font-size: 1.55em;
+     font-weight: 100;
+     color: #fdc72e;
+ }
+ #live--matches h4 {
+     font-size: 1.1em;
+     color: #fff;
+ }
+ #live--matches h4 span {
+     padding: 0 0 0 20px;
+     background: transparent url("../images/icons/default.png") 1px 1px no-repeat;
+ }
+ #live--matches h4 span[class*="basketball"] {
+     background-image: url("../images/icons/basketball.png");
+ }
+ #live--matches h4 span[class*="football"] {
+     background-image: url("../images/icons/football.png");
+ }
+ #live--matches h4 span[class*="tennis"] {
+     background-image: url("../images/icons/tennis.png");
+ }
+ #live--matches .date {
+     color: #999;
+     margin: 1em 0;
+ }
+ #live--matches a {
+     width: 12.5%;
+     margin: auto;
+     padding: .4em .85em;
+     vertical-align: middle;
+     display: inherit;
+     text-align: center;
+     color: #fff;
+     background: #3fa83c;
+     border-radius: 4px;
+     text-decoration: none;
+     font-size: 1.1em;
+     text-shadow: 0px 0px 1px #fff;
+ }
+ #live--matches a:hover {
+     border-color: rgba(0, 0, 0, 0.110776);
+     background: #ffce18;
+     color: #333;
+     text-shadow: none;
+ }
+ 
+ 
+ /* ==============
+    CAROUSEL 
+   ============== */
+ 
+ #content--live--matches {
+     overflow: hidden;
+     width: 71%;
+     position: relative;
+     float: left;
+     height: 185px;
+ }
+ #live--matches {
+     position: relative;
+     margin: 1.05em 0 0;
+     height: 185px;
+     overflow: hidden;
+     text-align: center;
+     background: #222;
+     list-style: none;
+     width: 5700%; /* Number of panes * 100% */
+     animation: carousel 50s infinite;
+ }
+ #live--matches > li {
+     position: relative;
+     float: left;
+     width: 1.7543859649%; /* 100 / number of panes */
+ }
+ 
+ @keyframes carousel {
+     0% {
+         left: 0;
+     }
+     11% {
+         left: 0;
+     }
+     12.5% {
+         left: -100%;
+     }
+     23.5% {
+         left: -100%;
+     }
+     25% {
+         left: -200%;
+     }
+     36% {
+         left: -200%;
+     }
+     37.5% {
+         left: -300%;
+     }
+     48.5% {
+         left: -300%;
+     }
+     50% {
+         left: -400%;
+     }
+     61% {
+         left: -400%;
+     }
+     62.5% {
+         left: -300%;
+     }
+     73.5% {
+         left: -300%;
+     }
+     75% {
+         left: -200%;
+     }
+     86% {
+         left: -200%;
+     }
+     87.5% {
+         left: -100%;
+     }
+     98.5% {
+         left: -100%;
+     }
+     100% {
+         left: 0;
+     }
+ }
+ 
+ 
+ /* ==============
+    ASIDE
+   ============== */
+ 
+ article aside p {
+     margin: 1.05em 0;
+     font-size: .97em;
+     line-height: 1.68em;
+     font-family: 'Arial', sans serif;
+ }
+ 
+ 
+ /* ==============
+    FOOTER
+   ============== */
+ 
+ footer {
+     clear: both;
+ }
+ footer .inner p.small {
+     padding: 1.1em .45em;
+     font-size: .8em;
+     line-height: 1.5em;
+     color: #888;
+ }
+ footer .inner a {
+     color: #3aaa35;
+     text-decoration: none;
+ }
+ footer .inner a:hover {
+     text-decoration: underline;
+ }
+ footer .inner {
+     width: 90%;
+ }
+ 
+ 
+ /* ==============
+    Media Queries
+   ============== */
+ /* 2 column layout */
+ 
+ @media screen and (max-width: 1000px) {}
+ /* 1 column layout */
+ 
+ @media screen and (max-width: 760px) {}
+ /* --- Smartphones and small Tablet PCs --- */
+ 
+ @media screen and (max-width: 620px) {
+     html {
+         -webkit-text-size-adjust: 100%;
+     }
+ }
