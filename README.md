@@ -1,7 +1,7 @@
 ## Live matches App
 
 <p align="center">
-    <img src="http://jsmodules.io/images/js-logo.png" alt="Vanilla JS" width="190" height="190"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/768px-Unofficial_JavaScript_logo_2.svg.png" alt="Vanilla JS" width="190" height="190"/>
 </p>
 
 
